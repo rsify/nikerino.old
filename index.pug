@@ -1,0 +1,127 @@
+html
+	head
+		title nikerino.com
+		meta(name='viewport' content='initial-scale=1, maximum-scale=1')
+		link(rel='stylesheet' href='reset.css')
+		link(rel='stylesheet' href='style.css')
+		link(rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/\
+			font-awesome/4.7.0/css/font-awesome.min.css')
+		link(rel='stylesheet' href='https://cdn.jsdelivr.net/devicons/1.8.0/\
+			css/devicons.min.css')
+		link(rel='icon' type='image/png' href='img/favicon.png')
+	body
+		section.lead#lead
+			.name
+				.before
+				.after
+				img.avatar(src='img/avatar.png')
+				| nikersify
+			.buttons
+				a.github(href='https://github.com/nikersify')
+					i.fa.fa-github
+				a.mail(href='mailto:nikersify@nikerino.com')
+					i.fa.fa-envelope-o
+				a.keybase(href='https://keybase.io/nikersify')
+					i.fa.fa-key
+				a.steam(href='https://steamcommunity.com/id/nikersify')
+					i.fa.fa-steam
+		section.divider
+		section.projects#projects
+			.project
+				a(href='https://splush.nikerino.com')
+					.title splush!
+				.content
+					a(href='https://splush.nikerino.com')
+						img(src='img/preview/splush.png')
+					.desc Send push notifications straight from the console.
+					.links
+						a.link.main(href='https://splush.nikerino.com')
+							span.fa.fa-globe
+						a.link(href='https://github.com/nikersify/splush')
+							span.devicons.devicons-github_badge
+						a.link(href='https://npmjs.com/package/splush')
+							span.devicons.devicons-npm
+				.tags
+					.tag node.js
+					.tag express
+					.tag push api
+					.tag riot.js
+					.tag leveldb
+					.tag pug.js
+					.tag cli
+
+			.project
+				a(href='https://link.nikerino.com')
+					.title link
+				.content
+					a(href='https://link.nikerino.com')
+						img(src='img/preview/link.png')
+					.desc Simple and "pretty" link shortener.
+					.links
+						a.link.main(href='https://link.nikerino.com')
+							span.fa.fa-globe
+						a.link(href='https://github.com/nikersify/link')
+							span.devicons.devicons-github_badge
+				.tags
+					.tag node.js
+					.tag express
+					.tag vue.js
+					.tag rethinkdb
+
+			.project
+				a(href='https://github.com/nikersify/cactus')
+					.title cactus
+				.content
+					a(href='https://github.com/nikersify/cactus')
+						img(src='img/preview/cactus.png')
+					.desc JavaScript library for making cool TeamSpeak 3 bots.
+					.links
+						a.link.main(href='https://github.com/nikersify/cactus')
+							span.devicons.devicons-github_badge
+						a.link(href='https://npmjs.com/package/cactus-ts')
+							span.devicons.devicons-npm
+				.tags
+					.tag node.js
+
+			.project
+				a(href='https://github.com/nikersify/log')
+					.title log
+				.content
+					a(href='https://github.com/nikersify/log')
+						img(src='img/preview/log.png')
+					.desc Tiny logging utility used in
+						|  these other things sometimes.
+					.links
+						a.link.main(href='https://github.com/nikersify/log')
+							span.devicons.devicons-github_badge
+						a.link(href='https://npmjs.com/package/@nikersify/log')
+							span.devicons.devicons-npm
+				.tags
+					.tag node.js
+
+			.project
+				a(href='https://github.com/nikersify/puck')
+					.title puck
+				.content
+					a(href='https://github.com/nikersify/puck')
+						img(src='img/preview/puck.png')
+					.desc Code compiling bot for Discord, might still work.
+					.links
+						a.link.main(href='https://github.com/nikersify/puck')
+							span.devicons.devicons-github_badge
+				.tags
+					.tag node.js
+					.tag coffeescript
+
+		section.sellout
+			a(href='mailto:nikersify@nikerino.com')
+				.lead i can make a thing for you
+				.sub
+					.icon #[i.fa.fa-envelope-o]
+					.text drop me a message
+
+		section.divider
+		section.footer
+			| #[a.scroll-up(href='https://nikerino.com') nikersify] made this :)
+
+		script(src='script.js')
