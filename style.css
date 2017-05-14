@@ -61,6 +61,7 @@ section.lead {
 .lead .name .before, .lead .name .after {
 	bottom: 0.2em;
 	display: block;
+	font-family: 'Roboto', sans-serif;
 	font-size: 0.4em;
 	font-weight: 100;
 	position: absolute;
@@ -118,7 +119,7 @@ section.projects {
 
 .project .title {
 	color: black;
-	font-family: roboto;
+	font-family: 'Roboto', sans-serif;
 	font-size: 35px;;
 	font-weight: 100;
 	margin-bottom: 5px;
@@ -195,7 +196,7 @@ section.sellout {
 	display: block;
 	text-align: center;
 	font-size: 15px;
-	font-family: 'roboto', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	margin: 100px auto 150px auto;
 	max-width: 700px;
 }
